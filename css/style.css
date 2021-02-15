@@ -42,7 +42,7 @@ img {
 
 .text {
     font-size: 16px;
-    color: #b2b2b2;
+    color: #b0b0b0;
 }
 
 .padding-block-30{
@@ -84,7 +84,7 @@ header .header-logo img{
 .header-menu a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #b2b2b2;
+    color: #b0b0b0;
 }
 /* Fine Menu */
 
@@ -150,9 +150,14 @@ header .teaser{
 /* FINE MAIN */
 
 /* FOOTER */
-footer {
-    height: 70px;
-    width: 100%;
-    background-color: #8801fe;
+
+
+footer div {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer span {
+    color: red;
 }
 /* FINE FOOTER */
