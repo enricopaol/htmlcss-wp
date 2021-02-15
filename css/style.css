@@ -39,6 +39,15 @@ img {
     top: 0;
     left: 0;
 }
+
+.text {
+    font-size: 18px;
+    color: #b2b2b2;
+}
+
+.padding-block{
+    padding: 30px 0;
+}
 /* FINE COMMON */
 
 /* WRAPPER */
@@ -59,10 +68,6 @@ header .header-logo img{
 /* Fine Logo */
 
 /* Menu */
-header .header-menu {
-    padding: 30px 0;
-}
-
 .header-menu ul {
     list-style-type: none;
 }
@@ -82,7 +87,6 @@ header .header-menu {
 /* Cover */
 header .header-cover {
     height: 500px;
-    margin-bottom: 20px;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -109,17 +113,15 @@ header .teaser{
 
 /* MAIN */
 main {
-    background-color: #0383ff;
-    margin-bottom: 10px;
+
 }
 /* FINE MAIN */
 
 /* SECTION TITLE */
-.section-title {
-    height: 80px;
-    width: 100%;
-    background-color: #abcfe7;
+.section-title h2 {
+    font-size: 37px;
 }
+
 /* FINE SECTION TITLE */
 
 /* SECTION CONTENT */
