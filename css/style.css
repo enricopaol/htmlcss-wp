@@ -41,12 +41,16 @@ img {
 }
 
 .text {
-    font-size: 18px;
+    font-size: 16px;
     color: #b2b2b2;
 }
 
-.padding-block{
+.padding-block-30{
     padding: 30px 0;
+}
+
+.padding-block-20 {
+    padding: 20px 0;
 }
 /* FINE COMMON */
 
@@ -111,38 +115,39 @@ header .teaser{
 /* Fine Cover */
 /* FINE HEADER */
 
+
 /* MAIN */
-main {
-
-}
-/* FINE MAIN */
-
 /* SECTION TITLE */
 .section-title h2 {
     font-size: 37px;
 }
-
 /* FINE SECTION TITLE */
 
 /* SECTION CONTENT */
-.section-content{
+.secondary-banner{
     width: 100%;
-    padding: 20px 0;
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.section-content h4{
+ font-weight: 500;
+ margin-bottom: 10px;
 }
 
 .content-column-1, .content-column-3 {
     width: 20%;
-    height: 500px;
-    background-color: #abcfe7;
 }
 
 .content-column-2 {
     width: 57%;
-    height: 500px;
-    background-color: #abcfe7;
     margin: 0 1.5%;
 }
 /* FINE SECTION CONTENT */
+
+/* FINE MAIN */
 
 /* FOOTER */
 footer {
